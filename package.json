@@ -1,0 +1,19 @@
+{
+  "name": "rodando-con-alforjas",
+  "version": "1.0.0",
+  "description": "Blog Personal",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon --watch server.js"
+  },
+  "author": "Lucas Gebhardt",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
